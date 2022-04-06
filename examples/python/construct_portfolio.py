@@ -24,25 +24,23 @@ from apexe3.apexe3 import construct_portfolio_with_params
 
 import pandas as pd
 
-# usernameVal= "usmanbeta@apexe3.com"
-# passwordVal = "password"
-# portfolioName = "API Portfolio"
-# accessToken = ""
 
-usernameVal= "china@plates.com"
-passwordVal = "password"
-portfolioName = "API 88 ortfolio"
-accessToken = ""
-clientId = "apiclient"
-# clientSecret = "1972b74b-4e33-46bf-8a80-314ce9ccedef"
-clientSecret = "OoGreWDs1TFExNm5rBBLquqSb0cvPxut"
+usernameVal= 'Your username email'
+passwordVal = 'Your password'
+clientId = ''
+clientSecret = ''
 
+#Enter a name for this portfolio by replacing the "Add a name" value
+portfolioName = "Add a name"
+
+#Uncomment assets or add different assets to the portfolioItems array
+#Must have enough balance to buy the assets in this array
 portfolioItems = [
         {
             'exchange':'ftx',
             'base':'BTC',
             'quote':'USD',
-            'amount':0.005,
+            'amount':0.001,
         },
         # {
         #     'exchange':'ftx',

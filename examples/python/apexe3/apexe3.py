@@ -27,8 +27,8 @@ from operator import itemgetter
 import base64
 import ssl
 
-authUrl = 'http://localhost/auth/realms/ApexE3/protocol/openid-connect/token'
-revolutionsApiUrl  = "http://localhost"
+authUrl = 'https://dev.apexe3.ai/auth/realms/ApexE3/protocol/openid-connect/token'
+revolutionsApiUrl  = "https://dev.apexe3.ai"
 revolutionsApiUrl2  = "https://dev.apexe3.ai"
 accessToken = ""
 

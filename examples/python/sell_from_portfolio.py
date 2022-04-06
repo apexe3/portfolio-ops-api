@@ -25,19 +25,13 @@ from apexe3.apexe3 import sell_from_portfolio
 
 import pandas as pd
 
-# usernameVal= "usmanbeta@apexe3.com"
-# passwordVal = "password"
-# portfolioName = "API Portfolio"
-# accessToken = ""
+usernameVal= 'Your username email'
+passwordVal = 'Your password'
+clientId = ''
+clientSecret = ''
 
-usernameVal= "china@plates.com"
-passwordVal = "password"
-clientId = "apiclient"
-# clientSecret = "1972b74b-4e33-46bf-8a80-314ce9ccedef"
-clientSecret = "OoGreWDs1TFExNm5rBBLquqSb0cvPxut"
-
-portfolioId = 'c94dacb7-af72-4b3a-85fb-0e3946606bca'
-portfolioItemId = 'a055cd44-5c9a-4d35-ab10-61c52b829ac8'
+portfolioId = ''
+portfolioItemId = ''
 
 def init():
 
@@ -47,6 +41,6 @@ def init():
 
 if __name__ == "__main__":
     init()
-    result = sell_from_portfolio(portfolioId, portfolioItemId, usernameVal,'BTC','USD','ftx', 0.005)
+    result = sell_from_portfolio(portfolioId, portfolioItemId, usernameVal,'BTC','USD','ftx', 0.1)
     print(result)
 

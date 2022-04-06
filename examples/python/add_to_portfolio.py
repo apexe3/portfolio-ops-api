@@ -24,18 +24,12 @@ from apexe3.apexe3 import add_to_portfolio
 
 import pandas as pd
 
-# usernameVal= "usmanbeta@apexe3.com"
-# passwordVal = "password"
-# portfolioName = "API Portfolio"
-# accessToken = ""
+usernameVal= 'Your username email'
+passwordVal = 'Your password'
+clientId = ''
+clientSecret = ''
 
-usernameVal= "china@plates.com"
-passwordVal = "password"
-clientId = "apiclient"
-# clientSecret = "1972b74b-4e33-46bf-8a80-314ce9ccedef"
-clientSecret = "OoGreWDs1TFExNm5rBBLquqSb0cvPxut"
-
-portfolioId = 'c94dacb7-af72-4b3a-85fb-0e3946606bca'
+portfolioId = ''
 
 def init():
 

@@ -25,16 +25,10 @@ from apexe3.apexe3 import fetch_my_portfolios
 
 import pandas as pd
 
-# usernameVal= "usmanbeta@apexe3.com"
-# passwordVal = "password"
-# portfolioName = "API Portfolio"
-# accessToken = ""
-
-usernameVal= "china@plates.com"
-passwordVal = "password"
-clientId = "apiclient"
-# clientSecret = "1972b74b-4e33-46bf-8a80-314ce9ccedef"
-clientSecret = "OoGreWDs1TFExNm5rBBLquqSb0cvPxut"
+usernameVal= 'Your username email'
+passwordVal = 'Your password'
+clientId = ''
+clientSecret = ''
 
 def init():
 
