@@ -223,6 +223,14 @@ def fetch_my_portfolios():
     
     myPortfolios = requests.get(myPortfoliosUrl, headers=headers)
 
+    balance = fetch_balance()
+    if('balance' in balance):
+        print('Your balance is ',float(balance['balance']))
+        balance = float(balance['balance'])
+    else:
+        print('could not fetch balance')
+        return 'could not fetch bslance'
+
     return myPortfolios.json()
     
 def fetch_individual_portfolio(portfolioId):
